@@ -100,9 +100,15 @@ footer {
     border: 1px solid #000000;
     border-radius: 40px;
     font-size: 18px;
+    padding: 10px
 }
 
 #restartButton:hover {
     background-color: #000000;
     color: #FFFFFF;
+}
+
+/* essentially page wrapper */
+#endGame {
+    padding-bottom: 10px;
 }
