@@ -1,4 +1,4 @@
-// followed the tutorial https://medium.com/@canankorkut1/how-to-create-a-tic-tac-toe-with-html-css-and-javascript-10a25fddd356
+// followed the tutorial https://medium.com/@canankorkut1/how-to-create-a-tic-tac-toe-with-html-css-and-javascript-10a25fddd356. Essentially adapting this code because it was far more intuitive
 
 const board = document.getElementById('board');
 const squares = document.getElementsByClassName('square');
