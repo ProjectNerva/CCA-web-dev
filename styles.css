@@ -47,9 +47,25 @@ main {
     padding: 10px;
 }
 
-#text {
+.text {
     text-align: center;
     padding: 8px;
+}
+
+.button {
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 #btnBox {

@@ -5,7 +5,7 @@
         <title>ECS-Project</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="contact.js"></script>
     </head>
 
     <body>
@@ -26,12 +26,17 @@
             <h2>Hello Free Real Estate!</h2>
         </div>
 
-        <div id="text">
+        <div class="text">
             <p> If you have read this message, everything you own and love is now the property of Evil Corp Inc. A Team will be dispatched to your location.</p>
             <p> Now, please read the Terms and Conditions </p>
         </div>
 
-        <div id="text">
+        <div id="btnBox">
+            <button class="button" onclick="changeVisibility()">SHOW TEXT</button>
+        </div>
+
+        <div id="TOS" class="text" style="display: none;">
+            <!-- AI-generated Terms & Condition bc why not funny -->
             <h3>Terms and Conditions</h3>
             <p>By visiting this site, you agree to the following extremely fair and not-at-all suspicious terms:</p>
             <ol>
@@ -44,16 +49,16 @@
             </ol>
             <p>If you do not agree with any of these terms, please close your eyes, click randomly, and pretend you didn’t see anything.</p>
             
+            <div class="text">
+                <p>Thank you for choosing Evil Corp Inc. — where your loss is our profit.</p>
+            </div>
         </div>  
         
         <!-- Add a submit here and say show the div below -->
 
-        <div id="text">
-            <p>Thank you for choosing Evil Corp Inc. — where your loss is our profit.</p>
-        </div>
-
         <footer>
             <p>&copy; Evil Corp Inc. 2025</p>
         </footer>
+        <script src="contact.js"></script>
     </body>
 </html>
